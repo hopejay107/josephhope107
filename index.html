@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>josephhope107</title>
+    <meta name="title" content="josephhope107 - personal portfolio">
+    <meta name="description" content="all about me">
+    
+    <!---google font link-->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!-----custom css link-->
+<link rel="stylesheet" href="index.css">
+<script src="https://kit.fontawesome.com/b0e745185d.js" crossorigin="anonymous"></script>
+
+<!---preload images--->
+<link rel="stylesheet" as="image" href="back.jpg">
+<link rel="stylesheet" as="image" href="back.jpg">
+<link rel="stylesheet" as="image" href="back.jpg">
+</head>
+<body>
+
+
+    <header class="header.active" data-header>
+    
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="hj.jpg" width="119" height="37">
+            </a>
+
+            <nav class="navbar active" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="hj.jpg" width="119" height="37">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <i class="fa-sharp fa-solid fa-xmark" onclick="closeMenu()"></i>
+                        
+                    </button>
+                </div>
+
+                <div class="navbar-bottom">
+
+                    <div class="profile-card">
+                        <img src="back.jpg" width="68" height="68" alt="Hope" class="profile-banner">
+                   <div>
+                    <br>
+                    <p class="card-title">Welcome</p>
+                    <p class="card-subtitle">To my personal portfolio</p>
+                   </div>
+
+                    </div>
+                    
+                     
+                  
+                </div>
+
+                <ul class="navbar-list">
+                    
+                   
+                    <li>
+                        <a href="#home" class="navbar-link-hover-1" data-nav-toggler>Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navbar-link-hover-1" data-nav-toggler>About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="navbar-link-hover-1" data-nav-toggler>Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="navbar-link-hover-1" data-nav-toggler>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="navbar-link-hover-1" data-nav-toggler>Contact</a>
+                    </li>
+                    <br>
+                </ul>
+
+               
+                
+            </nav>
+
+
+            
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i> 
+            </button>
+           
+
+
+
+        </div>
+        
+    </header>
+
+
+    <main class="main">
+        <article>
+        <section class="hero" id="home" aria-label="home">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Welcome</p>
+                    <h1 class="headline headline-1 section-title"> 
+                        I'm <span class="span">Hope Joseph,</span>
+                    </h1>
+                    <p class="hero-text">A Computer Science student at Mulungushi University, Zambia.</p>
+
+                   
+                    <br>
+
+
+                </div>
+                <div class="hero-banner">
+                    <img src="back.jpg" width="327" height="490" alt="Hope Joseph" class="w-100">
+                   
+               
+                </div>
+           
+            
+            </div>
+        </section> 
+        
+        <!-----about section-->
+        
+        <div id="about">
+                
+            <h1 class="sub">About Me</h1>
+          <div class="header-tag">
+            <p>I'm committed to growing and improving,both as a programmer and as an individual,I enjoy working on projects that challenge me and allow me to grow my skill set.When I'm not coding,you can find me exploring the latest tech trends,gaming or spending time on social media.Let's connect and create something amazing together!</p>
+        <br><br>
+             <div class="sub2">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+            
+            <ul>
+                <li><span>Entrepreneurship</span>We Promote Business Scale</li><br><br>
+                <li><span>Web Development</span>We Are Accurate in Web Development services</li><br><br>
+                <li><span>Cyber Security</span>COMING SOON...</li>
+
+            </ul>
+             </div>
+
+             <div class="tab-contents" id="experience">
+                
+                <ul>
+                    <li><span>2021</span>We Invest and Partner With Legal And Trusted Businesses</li><br><br>
+                    <li><span>2021-Current</span>Third year Computer Science student at Mulungushi University</li><br><br>
+                    <li><span>2023-2024</span>Internship at Lusangazi Town council, Eastern, Zambia</li>
+
+                </ul>
+                 </div>
+
+
+                 <div class="tab-contents" id="education">
+                    
+                    <ul>
+                        <li><span>2021</span>Self  Motivated</li><br><br>
+                        <li><span>2021-current</span>Bachelor of Science in Computer Science at Mulungushi University</li><br><br>
+                        <li><span>2021-current</span>Mulungushi University,Great Nort Road Campus</li>
+
+                    </ul>
+                     </div>
+            
+        </div>
+    </div>
+
+
+
+
+   <!-- Services Section -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="services-list">
+            <div class="service">
+                <i class="fas fa-business-time"></i>
+                <h2>Entrepreneurship</h2>
+                <p>Advertise through us and reach out to as many people as possible</p>
+                <a href="mailto:josephhope107@gmail.com">Ask here</a>
+            </div>
+
+            <div class="service"> 
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>At an affordable fee, we design any kind of website for you within the given period</p>
+                <a href="mailto:josephhope107@gmail.com">Ask here</a>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-lock"></i>
+                <h2>Cyber Security</h2>
+                <p>COMING SOON...</p>
+                <a href="mailto:josephhope107@gmail.com">Ask here</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <!-- Portfolio Section -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="portfolio-list">
+            <div class="portfolio-item">
+                <img src="image.png" width="300" height="360" alt="Project 1">
+                <h2></h2>
+                <p>Here is an online marketing site which is still in the process of development</p>
+                <a href="https://hopejay107.github.io/marketing/">View Project</a>
+            </div>
+
+           
+        </div>
+    </div>
+</div>
+
+
+<!--------contact information-->
+
+ <!-- Contact Section -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> josephhope107@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +260 97 44889 02</p>
+                <a href="hope joseph cv.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" id="message" rows="6" placeholder="Leave A Message"></textarea>
+                    <input class="btn" type="submit" onclick="whatsapp()" value="Send Message"><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="small-column">
+            <h1>Follow Me Below</h1>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/hope.joseph.796569"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/josephhope107/?hl=en"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@josephhope107?lang=en"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <li>
+        <a href="#home" class="navbar-link-hover-1" data-nav-toggler>Back To Top</a>
+    </li>
+   <br>
+    <div class="copyright">
+        <p>Copyright © 2024 | Hope Joseph</p>
+    </div>
+</div>
+
+        </article>
+    </main>
+
+    
+    <script src="index.js"></script>
+
+   </body>
+</html>
